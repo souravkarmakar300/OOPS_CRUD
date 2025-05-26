@@ -53,7 +53,10 @@ class allfunctions {
             $sql = "SELECT * FROM users WHERE id = '".$id."'";
             $runquery = mysqli_query($conn, $sql);
             $getdata = mysqli_fetch_assoc($runquery);
-            return $getdata;
+               return   [
+                        'name' => $getdata['name'],
+                        'email' => $getdata['email'],
+                        ];
            
     }
 
