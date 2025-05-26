@@ -1,6 +1,4 @@
 <?php
-
-
 class db{
 
         private $conn;
@@ -14,20 +12,6 @@ class db{
         }
 
 
-    //     public function read(){
-
-    //     $database = new db();
-    //     $conn = $database->connect();
-
-    //     $sql = "SELECT * FROM users";
-    //     $result = mysqli_query($conn, $sql);
-
-    //      $responsearray = array();
-    //         while($data = mysqli_fetch_assoc($result)){
-    //             $responsearray[] = $data;
-    //         }
-    //         return $responsearray;
-    // }
 }
 
 
